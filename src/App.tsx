@@ -1,12 +1,13 @@
-import './App.css'
+import { Person } from './components/Person';
 
+const name: string = "Hello Type script";
 
 function App() {
-  const name: string = "Hello Type script";
 
   return (
     <>
       {name}
+      <Person name={"aram"} age={12} isMarried={false}/>
     </>
   )
 }
